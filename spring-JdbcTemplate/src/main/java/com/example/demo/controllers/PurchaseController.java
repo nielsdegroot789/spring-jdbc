@@ -19,6 +19,7 @@ public class PurchaseController {
 	
 	public PurchaseController(PurchaseRepository purchaseRepository) {
 	this.purchaseRepository = purchaseRepository;
+	System.out.println(purchaseRepository);
 	}
 	
 	@GetMapping
